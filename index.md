@@ -4,7 +4,7 @@ This is my home page! My name is Cyril Youssef and I am a student [Cal State Ful
 
 ## Computer Science Projects
 
-My Github page is http://github.com/cyrilyoussef (http://github.com/cyrilyoussef/).
+My Github page is [http://github.com/cyrilyoussef] (http://github.com/cyrilyoussef/)
 
 ### CPSC 120
 
