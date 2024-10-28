@@ -54,6 +54,24 @@ h1, h2 {
     color: #ff6347;
 }
 
+/* General Image Settings */
+img {
+    /* Applies to all images unless overridden */
+    max-width: 100%;
+    height: auto;
+}
+
+/* Specific Image Sizes */
+
+/* Profile Image in About Me Section */
+.profile-image {
+    width: 200px; /* Fixed size for consistency */
+    height: 200px; /* Fixed size for consistency */
+    object-fit: cover; /* Crop to fit the box */
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 20px;
+}
+
 /* About Me Container */
 .about-container {
     display: flex;
@@ -64,16 +82,16 @@ h1, h2 {
     margin: 0 auto;
 }
 
-.profile-image {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
 .about-description {
     max-width: 600px;
+}
+
+/* Album Images in Recently Listening To Section */
+.album img {
+    width: 150px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    object-fit: cover; /* Crop to fit the box */
+    border-radius: 8px; /* Rounded corners */
 }
 
 /* Flexbox Layout for Experience and Projects */
@@ -95,10 +113,11 @@ h1, h2 {
     text-align: left;
 }
 
+/* Experience and Project Images */
 .experience-image, .project-image {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
+    width: 120px; /* Fixed width */
+    height: 120px; /* Fixed height */
+    object-fit: contain; /* Scale image to fit within the container */
     margin-bottom: 15px;
 }
 
@@ -112,9 +131,9 @@ h1, h2 {
 }
 
 .education-image {
-    width: 150px;
-    height: 150px;
-    object-fit: contain;
+    width: 120px; /* Fixed width */
+    height: 120px; /* Fixed height */
+    object-fit: cover; /* Fill the box */
     margin-right: 20px;
 }
 
@@ -189,33 +208,4 @@ h1, h2 {
     text-align: center;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-    border-radius: 8px;
-    z-index: 2;
-}
-
-.vinyl-cover:hover .album-info {
-    opacity: 1;
-}
-
-/* Animation Settings for Slide-In */
-.slide-in-left {
-    opacity: 0;
-    transform: translateX(-50px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
-.slide-in-left.show {
-    opacity: 1;
-    transform: translateX(0);
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+    border-radius
