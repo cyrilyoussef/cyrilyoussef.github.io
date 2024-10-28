@@ -64,8 +64,8 @@ img {
 
 /* Profile Image in About Me Section */
 .profile-image {
-    width: 50px; /* Fixed size for consistency */
-    height: 50px; /* Fixed size for consistency */
+    width: 90px; /* Fixed size for consistency */
+    height: 90px; /* Fixed size for consistency */
     object-fit: cover; /* Crop to fit the box */
     border-radius: 50%; /* Make the image circular */
     margin-right: 20px;
@@ -114,8 +114,8 @@ img {
 
 /* Experience and Project Images */
 .experience-image, .project-image {
-    width: 50px; /* Fixed width */
-    height: 50px; /* Fixed height */
+    width: 70px; /* Fixed width */
+    height: 70px; /* Fixed height */
     object-fit: contain; /* Scale image to fit within the container */
     margin-bottom: 15px;
 }
@@ -130,8 +130,8 @@ img {
 }
 
 .education-image {
-    width: 50px; /* Fixed width */
-    height: 50px; /* Fixed height */
+    width: 100px; /* Fixed width */
+    height: 100px; /* Fixed height */
     object-fit: cover; /* Fill the box */
     margin-right: 20px;
 }
@@ -148,8 +148,8 @@ img {
 /* Individual Album */
 .album {
     position: relative;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     margin: 10px;
     overflow: hidden;
     border-radius: 8px;
@@ -170,8 +170,8 @@ img {
 
 .vinyl-background {
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     background: url('images/vinyl.png') center center / cover no-repeat;
     border-radius: 50%;
     animation: spin 8s linear infinite;
