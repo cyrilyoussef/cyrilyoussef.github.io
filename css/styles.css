@@ -64,8 +64,8 @@ img {
 
 /* Profile Image in About Me Section */
 .profile-image {
-    width: 200px; /* Fixed size for consistency */
-    height: 200px; /* Fixed size for consistency */
+    width: 250px; /* Fixed size for consistency */
+    height: 250px; /* Fixed size for consistency */
     object-fit: cover; /* Crop to fit the box */
     border-radius: 50%; /* Make the image circular */
     margin-right: 20px;
