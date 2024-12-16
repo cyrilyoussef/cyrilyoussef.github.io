@@ -8,7 +8,6 @@ body {
     text-align: center;
 }
 
-
 header {
     background-color: #333;
     padding: 20px 0;
@@ -60,8 +59,6 @@ img {
     height: auto;
 }
 
-/* Specific Image Sizes */
-
 /* Profile Image in About Me Section */
 .profile-image {
     width: 300px; /* Fixed size for consistency */
@@ -93,15 +90,15 @@ img {
     border-radius: 8px; /* Rounded corners */
 }
 
-/* Flexbox Layout for Experience and Projects */
-.experience-container, .projects-container {
+/* Flexbox Layout for Experience, Projects, and Skills */
+.experience-container, .projects-container, .skills-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.experience-item, .project-item {
+.experience-item, .project-item, .skill-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,12 +109,22 @@ img {
     text-align: left;
 }
 
-/* Experience and Project Images */
+/* Experience, Project, and Skill Images */
 .experience-image, .project-image {
     width: 70px; /* Fixed width */
     height: 70px; /* Fixed height */
     object-fit: contain; /* Scale image to fit within the container */
     margin-bottom: 15px;
+}
+
+/* Skills Listing */
+.skill-item h2, .skill-item ul {
+    text-align: center;
+}
+
+.skill-item ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
 }
 
 /* Education Section */
@@ -207,4 +214,5 @@ img {
     text-align: center;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-    border-radius
+    border-radius: 8px; /* Ensure rounded corners match album */
+}
